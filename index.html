@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
@@ -15,7 +14,7 @@
     <title>Hockey's</title>
 </head>
 
-<body>
+<body class="*:font-[Manrope]">
     <header class="max-w-[1170px] m-auto">
 
         <nav class="pr-3 md:pr-0">
@@ -29,7 +28,8 @@
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 mt-3 z-[1] p-2 shadow rounded-box w-52">
                             <li><a>Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
@@ -41,12 +41,12 @@
                             class="text-orange-600">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-orange-600 font-semibold">Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Block</a></li>
-                        <li><a>Contact</a></li>
+                    <ul class=" menu-horizontal px-1">
+                        <li class="px-4 cursor-pointer"><a class="text-orange-600 font-semibold">Home</a></li>
+                        <li class="px-4 cursor-pointer"><a>About</a></li>
+                        <li class="px-4 cursor-pointer"><a>Pages</a></li>
+                        <li class="px-4 cursor-pointer"><a>Block</a></li>
+                        <li class="px-4 cursor-pointer"><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end ">
@@ -63,7 +63,8 @@
 
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+                    <div
+                        class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                         <a href="#slide4" class="btn btn-circle bg-black text-white ">❮</a>
                         <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
                     </div>
@@ -73,7 +74,8 @@
 
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./Images/2.png" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+                    <div
+                        class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                         <a href="#slide1" class="btn btn-circle  bg-black text-white ">❮</a>
                         <a href="#slide3" class="btn btn-circle  bg-black text-white ">❯</a>
                     </div>
@@ -81,7 +83,8 @@
 
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./Images/4.png" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+                    <div
+                        class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                         <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a>
                         <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
                     </div>
@@ -89,7 +92,8 @@
 
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="./Images/3.png" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-full -bottom-20 left-5 top-full">
+                    <div
+                        class="absolute flex gap-4 transform bottom-52 left-[37%] top-[80%] md:-translate-y-full md:-bottom-20 md:left-5 md:top-full">
                         <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a>
                         <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
                     </div>
@@ -98,14 +102,116 @@
             </div>
         </div>
 
+        <div class="md:relative p-5">
+            <div
+                class=" bg-[#131318] text-white md:max-w-[550px] rounded-lg p-6 space-y-4 md:absolute right-8 bottom-20">
+                <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p>Unveil the heroic tales of the ice as you meet the stars of hockey on the exhilarating field of
+                    dreams. </p>
+            </div>
+        </div>
+
     </header>
 
 
+    <main class="max-w-[1170px] m-auto px-5">
+        <section class="py-5 md:py-14">
+            <div class="space-y-4 border-t-[#eeeeef] border-dashed py-6 border-y-2">
+                <h1 class="text-center text-2xl md:text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-center max-w-[600px] m-auto">Dive into the world of elite athleticism and fierce
+                    competition with the Professional Hockey Club, where skill, strategy, and passion collide on the
+                    frozen battleground. </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-5 mt-8">
+                <div class="p-10 md:p-1 flex flex-col justify-center items-center space-y-5">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87; --size:10rem; --thickness: 1.1rem;"
+                        role="progressbar"><span class="font-bold text-4xl text-[#131318]">87%</span></div>
+                    <h1 class="text-xl font-semibold text-center">Player Facility</h1>
+                    <p class="text-center text-gray-400">In the dynamic world of hockey, 'Player Facility' encapsulates
+                        the essential elements that cultivate skill, teamwork, and resilience on the ice.</p>
+                </div>
+                <div class="p-10 md:p-1 flex flex-col justify-center items-center space-y-4">
+                    <div class="radial-progress text-[#49D293]" style="--value:95; --size:10rem; --thickness: 1.1rem;"
+                        role="progressbar"><span class="font-bold text-4xl text-[#131318]">95%</span></div>
+                    <h1 class="text-xl font-semibold text-center">Experienced Coach</h1>
+                    <p class="text-center text-gray-400">Under the guidance of an Experienced Coach, hockey players gain
+                        invaluable insights, tactical prowess, and a strategic edge to elevate their performance on the
+                        ice.</p>
+                </div>
+                <div class="p-10 md:p-1 flex flex-col justify-center items-center space-y-4">
+                    <div class="radial-progress text-[#FFB546]" style="--value:90; --size:10rem; --thickness: 1.1rem;"
+                        role="progressbar"><span class="font-bold text-4xl text-[#131318]">90%</span></div>
+                    <h1 class="text-xl font-semibold text-center">Senior Player</h1>
+                    <p class="text-center text-gray-400">As a beacon of leadership and prowess, the Senior Player
+                        embodies the epitome of skill and experience, contributing to the dynamic tapestry of excellence
+                        in the world of hockey.</p>
+                </div>
+                <div class="p-10 md:p-1 flex flex-col justify-center items-center space-y-4">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:10rem; --thickness: 1.1rem;"
+                        role="progressbar"><span class="font-bold text-4xl text-[#131318]">80%</span></div>
+                    <h1 class="text-xl font-semibold text-center">Training Ground</h1>
+                    <p class="text-center text-gray-400">In the heart of development and skill refinement, the 'Training
+                        Ground' stands as the crucible where aspiring and seasoned hockey players forge their abilities,
+                        fostering a legacy of excellence on the ice.</p>
+                </div>
+            </div>
+
+        </section>
 
 
 
 
-    <main>
+        <section class="py-5 md:py-12">
+            <div class="space-y-4 border-t-[#eeeeef] border-dashed py-6 border-y-2">
+                <h1 class="text-center text-2xl md:text-4xl font-extrabold">Program Sections</h1>
+                <p class="text-center max-w-[600px] m-auto">Explore the multifaceted facets of the game with our diverse
+                    Program Sections, offering a comprehensive journey through the thrilling world of hockey. </p>
+            </div>
+            <div class="flex flex-col gap-4 py-12">
+                <div class="w-full flex flex-col md:flex-row gap-4">
+
+                    <div
+                        class="bg-[linear-gradient(to_top,rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url('./Images/2.png')] bg-cover w-full h-[250px] md:h-[330px] rounded-2xl flex items-center justify-start">
+                        <div class="w-full p-[6%] md:p-[3%] text-white space-y-2 md:space-y-5">
+                            <h1 class="font-extrabold text-xl md:text-4xl">Junior Program</h1>
+                            <p>Elevate your game to new heights with our cutting-edge Professional Program, designed to
+                                hone skills, foster teamwork, and propel aspiring athletes into the elite realm of
+                                professional hockey.</p>
+                            <button
+                                class="font-semibold text-white px-4 py-1 md:px-6 md:py-3 bg-[#FF4240] rounded-md">Register
+                                Now!</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-[linear-gradient(to_top,rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url('./Images/3.png')] bg-cover w-full h-[250px] md:h-[330px] rounded-2xl flex items-center justify-start">
+                        <div class="w-full p-[6%] md:p-[3%] text-white space-y-2 md:space-y-5">
+                            <h1 class="font-extrabold text-xl md:text-4xl">Teenager Program</h1>
+                            <p>Dive into excellence with our exclusive Professional Program, where precision meets
+                                passion, sculpting the next generation of hockey stars.</p>
+                            <button
+                                class="font-semibold text-white px-4 py-1 md:px-6 md:py-3 bg-[#FF4240] rounded-md">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-[linear-gradient(to_top,rgba(00,00,00,0.5),rgba(00,00,00,0.5)),url('./Images/4.png')] bg-cover w-full h-[250px] md:h-[450px] rounded-2xl  flex items-center md:items-end justify-start">
+                    <div class="md:w-1/2 p-[6%] md:p-[3%] text-white space-y-2 md:space-y-5">
+                        <h1 class="font-extrabold text-xl md:text-4xl">Professional Program</h1>
+                        <p>Unleash your potential with the pinnacle of training and expertise through our Professional
+                            Program, shaping athletes into the skilled and disciplined players demanded by the world of
+                            hockey.</p>
+                        <button
+                            class="font-semibold text-white px-4 py-1 md:px-6 md:py-3 bg-[#FF4240] rounded-md">Register
+                            Now!</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
 
